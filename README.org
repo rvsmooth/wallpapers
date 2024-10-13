@@ -1,0 +1,6 @@
+#+title: Wallpapers
+#+author: RVSmooth
+
+A repository to store my hand picked wallpapers from various sources. 
+
+Coz why not :p
