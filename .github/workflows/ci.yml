@@ -1,11 +1,11 @@
 name: CI
 
 on:
+  schedule:
+    - cron: '0 0 1 * *'
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+      paths:
+        - '.github/**'
   workflow_dispatch:
 
 jobs:
